@@ -1,0 +1,27 @@
+﻿Colonne,Description
+case_id,numéro d'identification du cas attribué par le ministère de la Santé
+date_onset,"date d'apparition des symptômes, AAAA-MM-JJ"
+date_hospitalisation,"date de l'hospitalisation initiale, AAAA-MM-DD"
+date_outcome,date de détermination du statut du cas
+outcome,"soit ""Death"" (""Décès""), soit ""Recovered"" (""Rétablissement""), soit ""Unknown"" (""Inconnu"")"
+gender,"soit ""m"" (""h"") ou ""f"" ou ""unknown"" (""inconnu"")"
+age,âge du cas
+age_unit,"unité d'âge, soit 'années', soit 'mois', soit 'jours'."
+age_years,âge en années
+age_cat,"catégorie d'âge, soit ""0-4"" ou ""5-9"" ou ""10-14"" ou ""15-19"" ou ""20-29"" ou ""30-49"" ou ""50-69"" ou ""70+"""
+hospital,Nom de l'hôpital de première admission
+lon,"longitude du lieu de résidence, environ"
+lat,"latitude du lieu de résidence, environ"
+source,contexte de l'événement de transmission connu
+wt_kg,"poids, en kilogrammes"
+ht_cm,"taille, en centimètres"
+ct_blood,numération sanguine
+epilink,"si un lien épidémiologique avec un autre cas a été établi, soit ""yes"" (""oui""), soit ""no"" (""non"")"
+lab_confirmed,"si le cas a été confirmé par des tests de laboratoire, soit TRUE (VRAI) ou FALSE (FAUX)"
+case_def,"la définition du cas, définie dans un script R de nettoyage basé sur le lien épidémiologique, la confirmation du laboratoire et la fièvre, soit ""Confirmed"" (""Confirmé""), ""Suspected"" (""Suspect"") ou ""To investigate"" (""À examiner"")"
+fever,"présence de fièvre à l'admission, soit 'yes' ('oui'), soit 'no' ('non')"
+chills,"présence de frissons à l'admission, soit 'yes' ('oui'), soit 'no' ('non')"
+cough,"présence de toux au moment de l'admission, soit 'yes' ('oui'), soit 'no' ('non')"
+aches,"présence de courbatures au moment de l'admission, soit 'yes' ('oui'), soit 'no' ('non')"
+vomit,"présence de vomissements à l'admission, soit 'yes' ('oui'), soit 'no' ('non')"
+temp,"température du patient, en Celsius"

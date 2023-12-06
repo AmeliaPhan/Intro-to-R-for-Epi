@@ -1,0 +1,429 @@
+---
+title: "Covid-19 outbreak situation report"
+author: "Case study exercise for Applied Epi R course"
+date: "21 June 2021"
+output:
+  word_document: default
+  html_document: default
+params:
+  data_date:
+    label: "Date of data:"
+    value: "2021-06-21"
+    input: date
+---
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This comment will not show up when you knit the document.
+A comment with a title with slashes indicates a name of a code chunk.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/// setup \\\
+--------------------------------------------------------------------------------
+
+Several packages are required for different aspects of analysis with *R*. 
+You will need to install these before starting. 
+
+We install and load packages using the {pacman} package. Its p_load() command
+will install packages if necessary and load them for use in the current session.
+
+This might prove difficult if you have limited administrative rights for your 
+computer. Making sure your IT-department gives you the correct access can save a 
+lot of headache. 
+
+See this handbook pages on the basics of installing packages and running R from 
+network drives (company computers) for more detail. 
+
+https://epirhandbook.com/r-basics.html#installation
+https://epirhandbook.com/r-on-network-drives.html#r-on-network-drives
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+```{r setup, include=FALSE}
+
+# hide all code chunks in the output, but show errors 
+     # nb. warnings and messages still shown
+knitr::opts_chunk$set(echo = FALSE,  # hide all code chunks in output
+                      error = TRUE,  # show errors if they appear, but don't stop (produce the word doc)
+                      warning = FALSE, # do not show warnings in the output word doc 
+                      message = FALSE, # do not show  messages in the output word doc
+                      fig.width = 7,         # Figure width
+                      fig.height = 7,        # Figure height
+                      fig.topcaption = TRUE  # show figure titles on top of plot
+                     )
+
+# Ensures the package "pacman" is installed
+if (!require("pacman")) {
+     install.packages("pacman") }
+
+# install (if necessary) from CRAN and load packages to be used
+pacman::p_load(
+  rio,        # importing data  
+  here,       # relative file pathways 
+  skimr,      # review data
+  janitor,    # data cleaning and tables
+  lubridate,  # working with dates
+  epikit,     # age_categories() function
+  tidyverse,  # data management and visualization
+  flextable,  # converting tables to pretty images
+  scales,     # define colour schemes for flextables 
+  gtsummary,  # summary statistics, tests and regressions 
+  apyramid    # age pyramids 
+)
+
+
+```
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/// import \\\
+--------------------------------------------------------------------------------
+
+We use the {rio} package for importing our example data - it is very versatile 
+and can read in most file types. 
+
+We use the {here} package for defining the path to our file. This is important 
+for sharing your script with others (by email or on Sharepoint) - if you used an
+"absolute" path, they would need to update the script to match their computer. 
+
+This way your whole R-project folder can be zipped up and moved somewhere else. 
+
+For more details see: 
+https://epirhandbook.com/import-and-export.html
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+```{r import}
+# import the raw case data set and city populations
+linelist_raw <- import(here("learning_materials", "covid_case_study", "covid_example_data.xlsx"))
+
+city_pops <- import(here("learning_materials", "covid_case_study", "city_pops.xlsx"))
+
+```
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/// browse_data \\\
+--------------------------------------------------------------------------------
+
+Note that this chunk is set to 'eval = FALSE' so the results do not show.  
+
+Here we take a look at the raw data to get a feel for what needs cleaning. 
+
+We first use the in-built browser with the {base} function View(). 
+
+Then we can use the {base} function summary(), but probably the most comprehensive 
+overview is with the {skimr} function. 
+You can also view distinct values for variables using the {base} unique() function. 
+
+For more details see: 
+https://epirhandbook.com/cleaning-data-and-core-functions.html#review
+https://epirhandbook.com/descriptive-tables.html#browse-data
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+```{r browse_data, eval = FALSE}
+
+# view your whole dataset interactively (in an excel style format)
+View(linelist_raw)
+
+# get summary: 
+# mean, median and max values of numeric variables
+# counts for categorical variables
+# also gives number of NAs
+summary(linelist_raw)
+
+# get information about each variable in a dataset 
+# nb. “POSIXct” is a type of raw date class 
+skim(linelist_raw)
+
+# view unique values contained in variables - useful for categorical variables
+# you can run this for any column -- just replace the column name
+unique(linelist_raw$case_gender) 
+
+```
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/// clean_colnames \\\
+--------------------------------------------------------------------------------
+
+Here we are going to clean the column names of our data set - and store as a new
+dataset called "linelist". 
+
+It is possible to use the {janitor} package for automated cleaning of variable 
+names - but as there are only a few variables that we want to rename, 
+here we will demonstrate using {dplyr} select() function for manually renaming.
+
+Select() can be used either to retain specific columns or to rename them by using
+the syntax New name = Old name. 
+
+For more details see: 
+https://epirhandbook.com/cleaning-data-and-core-functions.html#column-names
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+```{r clean_colnames}
+
+# create a new object called linelist and assign linelist_raw with renamed columns
+linelist <- linelist_raw %>% 
+  # convert all column names to lower case with no spaces
+  clean_names() %>% 
+  
+  # use rename() to rename columns 
+  # NEW name = OLD name
+  # aligned for readability
+  rename( 
+    date_report         = report_dt,      
+    age                 = case_age,                    
+    gender              = case_gender,
+    race                = case_race,
+    eth                 = case_eth,
+    zip                 = case_zip,
+    date_onset          = sym_startdt,
+    date_recovery       = sym_resolveddt, 
+    contact_hh          = contact_household,
+    date_hospitalized   = hosp_admidt,
+    date_discharge      = hosp_dischdt,
+    date_died           = died_dt,
+    date_positive       = pos_sampledt,
+    lat                 = latitude_jitt,
+    lon                 = longitude_jitt
+    ) %>%  
+  
+  # convert all date columns to date type 
+  mutate(
+    date_report =       ymd(date_report),
+    date_onset =        ymd(date_onset),
+    date_hospitalized = ymd(date_hospitalized)) %>% 
+  
+  # remove cases reported after the data_date (for this report)
+  filter(date_report <= ymd(params$data_date)) %>% 
+  
+  # filter to confirmed cases only
+  filter(confirmed_case == "Yes") %>% 
+
+  # create age group variable
+  mutate(
+       age_group = age_categories(age,
+        # define break points
+        lower = 0,
+        upper = 70,
+        by    = 10)) %>% 
+
+  # convert "Unknown" to NA in the column gender
+  mutate(gender = na_if(gender, "Unknown")) %>% 
+
+  # (optional) convert the race values to title case 
+  mutate(race = str_to_title(race)) 
+```
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/// Summary bullets \\\
+--------------------------------------------------------------------------------
+
+Embed dynamic r code into the bullet text as below.
+Use format() to specify how dates should be displayed
+Use fmt_count() from {epikit} to quickly format a count and proportion
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+
+# Summary 
+
+- As of `r format(ymd(params$data_date), format = "%B %d %Y")`, Fulton County has 
+recorded `r nrow(linelist)` confirmed cases of COVID-19.  
+
+- As of `r format(ymd(params$data_date), format = "%B %d %Y")`, Fulton County has 
+recorded `r fmt_count(linelist, died == "Yes")` deaths.  
+
+- Among all confirmed cases of COVID-19 in Fulton County, `r fmt_count(linelist, hospitalized == "Yes")`
+required hospitalization. 
+
+
+\pagebreak 
+
+
+
+
+# Demographics
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/// age_pyramid \\\
+--------------------------------------------------------------------------------
+
+Here we demonstrate how to plot age pyramids using the {apyramid} package and edit
+it with {ggplot2]. 
+
+For more details see: 
+https://epirhandbook.com/demographic-pyramids-and-likert-scales.html
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+```{r age_pyramid}
+# plot age pyramid 
+age_pyramid(
+  data = linelist,
+  age_group = "age_group",
+  split_by = "gender",
+  proportional = TRUE,       # Show as percentages of total cases
+  show_midpoint = FALSE) +   # remove guide line for mid-point
+
+  # set theme to basic 
+  theme_minimal() +
+  
+  # add labels 
+  labs(
+    title = "Age and gender of COVID-19 cases in Fulton County",
+    subtitle = ,
+    caption = "Fake dataset for course exercise",
+    x = "Age group",
+    y = "Percent of total",
+    fill = "Gender")
+
+```
+
+
+
+\pagebreak 
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/// epicurve \\\
+--------------------------------------------------------------------------------
+
+The two main steps here are 
+1) Define the weekly breaks for the histogram
+2) Plot the histogram using those breaks
+3) see details in the code
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+# Weekly epidemic curve by city  
+
+```{r epicurve}
+# specify weekly breaks on Mondays
+weekly_breaks <- seq.Date(
+      from = floor_date(min(linelist$date_report, na.rm=T),   "week", week_start = 1), # Monday before first case
+      to   = ceiling_date(max(linelist$date_report, na.rm=T), "week", week_start = 1), # Monday after last case
+      by   = "week")                                                                   # bins are 7-days 
+
+
+# open a plot with the linelist data
+ggplot(
+     data = linelist,
+     mapping = aes(
+          x = date_report,
+          fill = fct_lump_n(city, 5))) +    # use fct_lump to show only top 5 cities
+                                            # see pivoting exercise for more info
+  
+  geom_histogram(
+       breaks = weekly_breaks,  # use breaks defined above
+       closed = "left"          # count cases from the start of a breakpoint
+  ) +
+  
+  scale_y_continuous(
+    # make the y axis start at the origin
+    expand = c(0, 0))+
+  
+  scale_x_date(
+    expand            = c(0,0),            # remove excess x-axis space before and after case bars
+    date_breaks       = "2 months",        # date labels and major vertical gridlines appear every 4 Monday weeks
+    #date_minor_breaks = "week",           # minor vertical lines appear every Monday week
+    labels = scales::label_date_short()
+    )+
+  
+  scale_fill_brewer(type = "qual")+
+  
+  labs(title = "COVID-19 epidemic, Fulton County, GA",
+       subtitle = "Weekly reported cases among top five cities", 
+       x = "Date of report",
+       y = "Number of cases",
+       fill = "City",
+       caption = str_glue("Fake data for course exercise.\n{nrow(linelist)} cases shown by city of residence\nCases reported from {min(linelist$date_report)} to {max(linelist$date_report)} by Monday week")) + 
+  
+    theme_minimal()+
+     
+    theme(legend.position = "right")
+  
+
+
+```
+
+
+
+
+\pagebreak 
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/// race_hospital_table \\\
+--------------------------------------------------------------------------------
+
+We use tbl_summary() from {gtsummary} to make a fast table and run Chi-Square
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+## Table of race and hospitalization  
+
+```{r race_hospital_table}
+# Compare race and died
+linelist %>% 
+     select(race, hospitalized) %>% 
+     tbl_summary(by = hospitalized, percent = "row") %>% 
+     add_p()
+```
+
+
+
+\pagebreak 
+
+# Cumulative case incidence by city, per 10,000 population  
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/// zip_counts \\\
+--------------------------------------------------------------------------------
+
+Here we use {dplyr} functions to get case counts based on City. 
+Then we merge with the city populations, and use the added population counts
+to derive incidence per 10,000 populaton for each city.
+Finally, we remove unnecessary columns, and sort the rows by incidence, descending
+
+In the final chunk we print the table with flextable
+
+For more details see: 
+https://epirhandbook.com/descriptive-tables.html#dplyr-package
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+```{r zip_counts}
+city_table <- linelist %>% 
+  
+  group_by(city) %>% 
+  
+  # create new summary columns 
+  summarise(
+    total_cases  = n(),
+    recent_cases = sum(date_report > ymd(params$data_date) - 14)) %>% 
+
+  # join with zip code populations data frame
+  left_join(city_pops, by = c("city")) %>% 
+   
+  # add cululative case incidence  
+  mutate(inc_per_10k = round((total_cases / population)* 10000, digits = 1)) %>% 
+
+  # remove extra column
+  select(-population) %>% 
+
+  # sort on incidence per 10,000 population
+  arrange(desc(inc_per_10k)) 
+  
+```
+
+
+```{r}
+# print table nicely and adjust the header labels  
+city_table %>% 
+  qflextable %>%  
+  set_header_labels(         
+      city = "City", 
+      total_cases = "Total cases",                  
+      recent_cases = "Cases in last 14 days",
+      inc_per_10k = "Cumulative incidence per 10,000") 
+```
+
+

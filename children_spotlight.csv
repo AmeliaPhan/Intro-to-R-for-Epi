@@ -1,0 +1,333 @@
+case_id,age_years,infant,gender,district,hospital,date_report
+86340d,1,non-infant,female,Central II,Port Hospital,2014-10-31
+92d002,16,non-infant,female,Mountain Rural,,2014-08-20
+544bd1,10,non-infant,female,East II,,2014-08-30
+6056ba,0,infant,female,West III,,2014-10-21
+e64e04,7,non-infant,female,Mountain Rural,,2014-10-10
+5a65bb,4,non-infant,male,Mountain Rural,Port Hospital,2014-09-22
+7ca4c0,11,non-infant,male,West III,Port Hospital,2014-09-30
+30af4f,6,non-infant,female,West I,Port Hospital,2014-11-10
+a06123,10,non-infant,male,Mountain Rural,,2014-09-15
+8f654c,6,non-infant,female,West II,Military Hospital,2014-10-19
+f8cd8f,11,non-infant,female,West II,Port Hospital,2014-10-19
+e4bee8,3,non-infant,female,Central I,Other,2014-06-25
+7bb784,0.75,infant,male,Mountain Rural,Central Hospital,2014-10-22
+2772c3,2,non-infant,male,Central II,,2014-10-25
+212254,1,non-infant,male,East II,Port Hospital,2014-08-31
+5b62bc,10,non-infant,female,Mountain Rural,Other,2014-11-19
+5c033b,15,non-infant,female,East II,Other,2014-09-19
+1e55cd,8,non-infant,male,East I,Military Hospital,2014-09-27
+53f6ed,0,infant,female,West III,,2014-09-23
+9d4019,17,non-infant,male,West III,Military Hospital,2014-05-16
+7c06a7,1,non-infant,male,West III,SMMH,2014-11-28
+26c491,15,non-infant,female,East III,Port Hospital,2014-09-25
+8fedec,1,non-infant,female,Mountain Rural,Port Hospital,2014-09-09
+e2035e,5,non-infant,male,West II,Military Hospital,2014-11-24
+0ae14e,15,non-infant,female,Central II,Military Hospital,2014-07-04
+497372,10,non-infant,male,West III,Other,2014-07-31
+77d9e0,8,non-infant,female,East II,,2014-09-26
+d3ea55,2,non-infant,female,East II,Military Hospital,2014-10-31
+3ae04e,9,non-infant,female,Mountain Rural,Port Hospital,2014-09-13
+fba9ac,9,non-infant,female,West III,Port Hospital,2014-09-24
+1cd849,4,non-infant,female,Mountain Rural,Port Hospital,2014-10-22
+928277,0,infant,male,West III,Central Hospital,2014-10-12
+2d4c92,14,non-infant,female,Central II,Port Hospital,2014-08-09
+840043,13,non-infant,female,Mountain Rural,Other,2014-09-04
+43b220,8,non-infant,male,East II,Military Hospital,2014-09-16
+cb8d85,4,non-infant,male,West II,Other,2014-10-06
+7.79E+03,6,non-infant,female,Mountain Rural,Port Hospital,2014-10-02
+f8d6c3,11,non-infant,female,Central I,Central Hospital,2014-10-23
+c62127,5,non-infant,male,West III,Port Hospital,2014-07-03
+d5f42d,13,non-infant,female,West I,Other,2014-10-26
+b37e78,7,non-infant,male,Mountain Rural,,2014-11-04
+c146f2,16,non-infant,male,West II,,2014-11-26
+435e4f,0,infant,female,Mountain Rural,,2014-09-19
+9e0ce3,2,non-infant,female,West III,Port Hospital,2014-10-30
+c899b0,13,non-infant,female,East I,,2014-09-04
+a52491,12,non-infant,female,West II,Port Hospital,2014-09-27
+40202a,6,non-infant,female,Mountain Rural,Central Hospital,2014-11-07
+00da2b,10,non-infant,female,Mountain Rural,Military Hospital,2014-11-20
+32d4ad,10,non-infant,female,Central I,Military Hospital,2014-09-12
+2d7305,1,non-infant,female,West II,,2014-10-29
+5167ee,2,non-infant,male,East II,Military Hospital,2014-11-18
+5a7acc,13,non-infant,female,West II,Central Hospital,2014-09-12
+df9f64,0.583333333333333,infant,female,East II,Port Hospital,2014-10-27
+8a3c52,2,non-infant,female,West II,Port Hospital,2014-09-27
+a748cf,11,non-infant,male,Mountain Rural,Central Hospital,2014-10-25
+21957a,4,non-infant,female,West III,Military Hospital,2014-11-03
+b458e2,2,non-infant,female,Mountain Rural,Other,2014-09-13
+008ea7,5,non-infant,female,Mountain Rural,Port Hospital,2014-10-22
+2adcc8,1,non-infant,female,Mountain Rural,Port Hospital,2014-10-01
+571af3,1,non-infant,female,Mountain Rural,,2014-11-13
+b54b56,7,non-infant,female,West III,Port Hospital,2014-10-23
+37812a,17,non-infant,male,East I,Port Hospital,2014-10-24
+b9170e,5,non-infant,male,Central II,,2014-10-09
+ac0388,12,non-infant,female,Central II,Port Hospital,2014-11-07
+b5c984,17,non-infant,male,West III,,2014-08-31
+474608,5,non-infant,female,Mountain Rural,Central Hospital,2014-10-03
+dc6f96,6,non-infant,female,Mountain Rural,Port Hospital,2014-10-07
+ad3141,1,non-infant,male,West II,Port Hospital,2014-08-15
+157310,13,non-infant,male,Mountain Rural,,2014-10-07
+5154ca,1,non-infant,female,Central I,Military Hospital,2014-09-11
+63c0ce,9,non-infant,female,Mountain Rural,Port Hospital,2014-10-06
+7ee3ea,6,non-infant,female,Central II,Port Hospital,2014-07-18
+8f5a90,16,non-infant,female,Mountain Rural,Port Hospital,2014-10-06
+4c68e7,1,non-infant,male,Mountain Rural,,2014-10-20
+dd977e,0,infant,female,West II,Port Hospital,2014-09-25
+fc57cc,11,non-infant,female,East II,Other,2014-09-13
+d9fce7,9,non-infant,male,Mountain Rural,Other,2014-07-05
+aee2e3,13,non-infant,female,East II,Port Hospital,2014-09-15
+f62965,3,non-infant,female,Mountain Rural,,2014-09-03
+f61980,3,non-infant,female,East II,Port Hospital,2014-08-25
+439526,5,non-infant,female,Mountain Rural,Port Hospital,2014-09-27
+eabb2a,3,non-infant,female,West III,Port Hospital,2014-07-09
+c9783b,2,non-infant,female,West I,Other,2014-09-11
+f6c560,6,non-infant,female,Mountain Rural,Other,2014-10-13
+77a257,9,non-infant,,West III,Port Hospital,2014-11-23
+5afc68,7,non-infant,female,West III,Other,2014-10-12
+0afd15,17,non-infant,male,Central I,Central Hospital,2014-08-28
+fc4476,13,non-infant,female,Mountain Rural,Port Hospital,2014-10-28
+745cd8,7,non-infant,male,Mountain Rural,,2014-10-25
+db8ca7,15,non-infant,female,West II,Port Hospital,2014-09-25
+62f4f2,16,non-infant,male,Mountain Rural,Other,2014-10-30
+9df68c,14,non-infant,female,West III,,2014-08-31
+fb5b29,1,non-infant,female,West II,Port Hospital,2014-11-30
+e38b62,9,non-infant,female,West II,,2014-10-23
+01dad0,12,non-infant,female,Mountain Rural,,2014-10-06
+6198a5,13,non-infant,,East II,Port Hospital,2014-10-28
+0d8d9b,4,non-infant,female,Mountain Rural,Military Hospital,2014-09-09
+5c27ca,2,non-infant,female,West III,,2014-09-24
+af3fea,5,non-infant,male,Mountain Rural,SMMH,2014-11-09
+cd7bff,4,non-infant,male,West II,Military Hospital,2014-11-05
+386c3e,7,non-infant,male,East I,,2014-11-15
+26028b,8,non-infant,male,West II,,2014-11-25
+0e4462,12,non-infant,female,Mountain Rural,Other,2014-11-27
+0bafac,3,non-infant,male,Mountain Rural,,2014-09-25
+fb2536,7,non-infant,female,West III,,2014-08-05
+cb7ca3,14,non-infant,male,East II,Military Hospital,2014-09-03
+765861,17,non-infant,female,Central II,,2014-09-19
+b30365,9,non-infant,female,East III,Port Hospital,2014-10-04
+c9eb1f,1,non-infant,female,West III,Port Hospital,2014-10-14
+102152,9,non-infant,male,Mountain Rural,Port Hospital,2014-11-08
+08c2f2,5,non-infant,male,Mountain Rural,,2014-09-20
+c38a20,0,infant,female,East II,,2014-10-14
+c1978f,11,non-infant,female,West II,Other,2014-10-14
+7a1964,11,non-infant,female,West II,Central Hospital,2014-10-02
+1e1825,15,non-infant,female,Mountain Rural,Port Hospital,2014-07-31
+ad6cac,8,non-infant,female,West III,,2014-10-13
+3c3367,3,non-infant,female,East III,Other,2014-08-19
+ed67c0,12,non-infant,female,Mountain Rural,Other,2014-10-06
+7180ae,3,non-infant,male,West III,Port Hospital,2014-10-21
+128d10,7,non-infant,male,West I,Port Hospital,2014-09-19
+61fcce,8,non-infant,female,Mountain Rural,SMMH,2014-09-01
+6f8a3e,2,non-infant,female,Mountain Rural,Port Hospital,2014-10-29
+a93d55,4,non-infant,male,Mountain Rural,Central Hospital,2014-10-24
+3efdc1,7,non-infant,female,Mountain Rural,,2014-09-03
+ff9ddd,4,non-infant,female,Mountain Rural,,2014-09-05
+62638,13,non-infant,male,West III,Central Hospital,2014-07-27
+1b806b,3,non-infant,female,Mountain Rural,Port Hospital,2014-11-24
+0e7ec8,5,non-infant,female,East I,Military Hospital,2014-09-10
+9d70c3,4,non-infant,male,East III,Port Hospital,2014-08-25
+00612b,7,non-infant,male,Mountain Rural,,2014-09-29
+3f7c0b,4,non-infant,female,Mountain Rural,Military Hospital,2014-09-02
+7c5c70,1,non-infant,male,Mountain Rural,SMMH,2014-10-31
+ae4a36,7,non-infant,female,East I,Central Hospital,2014-07-30
+f7118d,1,non-infant,male,Mountain Rural,,2014-09-26
+ce4ec6,3,non-infant,female,West III,,2014-07-25
+8c4e8a,5,non-infant,male,,Central Hospital,2014-10-26
+e36e1f,5,non-infant,male,West II,Central Hospital,2014-09-30
+4a215f,17,non-infant,female,Central II,Other,2014-10-17
+922374,0,infant,female,West III,,2014-10-16
+ca492f,7,non-infant,female,Mountain Rural,Port Hospital,2014-11-01
+7ff746,8,non-infant,female,Central I,Military Hospital,2014-07-26
+baa1e5,1,non-infant,female,East II,,2014-11-12
+6e3e1b,4,non-infant,male,Mountain Rural,Port Hospital,2014-08-10
+2ce30f,0,infant,male,Mountain Rural,Port Hospital,2014-10-13
+5715b7,8,non-infant,female,West III,Military Hospital,2014-09-25
+1.34E+90,4,non-infant,male,Mountain Rural,Military Hospital,2014-10-09
+bc2924,1,non-infant,male,Mountain Rural,Port Hospital,2014-10-22
+8a4b27,2,non-infant,male,Central II,Other,2014-11-01
+1cf7a4,8,non-infant,male,East III,Military Hospital,2014-09-27
+c2a1ce,8,non-infant,female,Mountain Rural,Other,2014-09-30
+72fdfe,9,non-infant,female,West III,,2014-11-27
+e25651,10,non-infant,female,Central II,Other,2014-09-20
+6ebfe0,14,non-infant,female,East I,Other,2014-11-21
+aa3701,3,non-infant,female,Mountain Rural,Military Hospital,2014-09-29
+bc0b51,11,non-infant,female,Mountain Rural,SMMH,2014-09-15
+4288fd,16,non-infant,female,West III,Other,2014-09-13
+0563d7,1,non-infant,female,Mountain Rural,Central Hospital,2014-10-11
+26c588,2,non-infant,male,Mountain Rural,Port Hospital,2014-07-20
+9f9fd5,3,non-infant,male,Mountain Rural,Port Hospital,2014-08-23
+5024af,5,non-infant,female,East II,,2014-11-15
+228e8b,6,non-infant,male,Central I,Port Hospital,2014-08-24
+e5e4e7,12,non-infant,female,East II,Central Hospital,2014-11-23
+72ea9c,12,non-infant,male,Mountain Rural,Military Hospital,2014-09-07
+eff241,5,non-infant,female,Mountain Rural,Port Hospital,2014-11-22
+42b86c,14,non-infant,female,,Port Hospital,2014-10-02
+e81e6a,13,non-infant,male,West II,SMMH,2014-11-29
+b345c5,1,non-infant,female,West II,Other,2014-10-14
+1df3c0,4,non-infant,female,Mountain Rural,Military Hospital,2014-10-23
+d5d56f,4,non-infant,male,Central II,Other,2014-09-11
+dd44f3,16,non-infant,female,West III,Other,2014-09-22
+050eca,15,non-infant,female,West III,Port Hospital,2014-10-27
+a9695f,2,non-infant,female,West II,Port Hospital,2014-10-22
+10d90d,8,non-infant,male,Mountain Rural,Other,2014-11-21
+a38790,10,non-infant,female,West II,Port Hospital,2014-10-25
+df052c,8,non-infant,male,West II,,2014-10-05
+7f0470,9,non-infant,female,West III,Other,2014-10-29
+090d77,9,non-infant,male,Mountain Rural,,2014-10-09
+2cfb2f,10,non-infant,male,Mountain Rural,Military Hospital,2014-08-18
+294457,6,non-infant,male,Mountain Rural,Military Hospital,2014-08-24
+5cbd2f,10,non-infant,,Mountain Rural,Other,2014-08-21
+9.20E+130,12,non-infant,female,West II,Central Hospital,2014-08-12
+5c1d6e,11,non-infant,male,West III,,2014-08-08
+5c9744,10,non-infant,female,West III,Central Hospital,2014-09-24
+cc30ed,9,non-infant,female,West III,,2014-10-26
+8bd455,10,non-infant,male,West III,Other,2014-09-02
+da76ad,5,non-infant,,Mountain Rural,SMMH,2014-11-18
+d9bb43,13,non-infant,female,West III,,2014-11-05
+e5998f,7,non-infant,male,West II,Military Hospital,2014-09-18
+c230ae,15,non-infant,male,West III,Military Hospital,2014-11-16
+8c3a73,11,non-infant,male,West II,,2014-10-06
+730b25,14,non-infant,female,West I,Port Hospital,2014-08-04
+eb7d13,4,non-infant,female,Mountain Rural,,2014-09-07
+506dfc,11,non-infant,male,West I,Central Hospital,2014-10-13
+a0bc11,6,non-infant,female,West III,Other,2014-09-18
+27adef,3,non-infant,male,West II,,2014-08-14
+679c45,9,non-infant,female,Mountain Rural,Military Hospital,2014-10-28
+f52668,12,non-infant,male,Central II,Central Hospital,2014-11-18
+82494c,9,non-infant,female,East II,Port Hospital,2014-11-08
+00c3c7,13,non-infant,female,West II,Port Hospital,2014-11-17
+1ad5d8,16,non-infant,female,West II,Port Hospital,2014-11-08
+7864f6,16,non-infant,female,West II,Port Hospital,2014-11-12
+5c05a9,4,non-infant,female,East I,Port Hospital,2014-10-17
+a6ed82,12,non-infant,male,Mountain Rural,Other,2014-09-22
+269ddd,1,non-infant,male,West III,Military Hospital,2014-08-25
+ec10ca,11,non-infant,female,Mountain Rural,Port Hospital,2014-09-18
+cd76e0,10,non-infant,female,Mountain Rural,Military Hospital,2014-08-22
+331030,4,non-infant,male,Mountain Rural,SMMH,2014-10-17
+303b01,15,non-infant,female,Mountain Rural,Port Hospital,2014-09-10
+734753,3,non-infant,male,Mountain Rural,Other,2014-09-13
+013ff1,17,non-infant,female,Mountain Rural,SMMH,2014-09-21
+47eb8b,6,non-infant,female,East II,Other,2014-08-29
+de3b80,16,non-infant,female,West II,,2014-11-10
+02502c,12,non-infant,female,West III,,2014-09-28
+545b3b,0,infant,female,East II,Port Hospital,2014-09-29
+bd14cc,5,non-infant,male,Central I,Port Hospital,2014-09-21
+627db7,16,non-infant,male,Mountain Rural,SMMH,2014-09-06
+0fbbeb,9,non-infant,male,Mountain Rural,Port Hospital,2014-11-14
+c800a4,8,non-infant,female,Mountain Rural,Port Hospital,2014-09-11
+72f036,17,non-infant,male,East II,Central Hospital,2014-10-05
+8d77e2,7,non-infant,female,Mountain Rural,SMMH,2014-11-24
+d3cff4,14,non-infant,female,West III,,2014-09-14
+a5f1d1,7,non-infant,male,East I,Port Hospital,2014-09-28
+474f41,8,non-infant,male,West III,Port Hospital,2014-09-12
+cfbd0a,4,non-infant,female,Mountain Rural,,2014-10-05
+4b0f10,1,non-infant,female,Mountain Rural,Military Hospital,2014-09-18
+8c9de8,1,non-infant,female,East II,,2014-07-17
+0be051,3,non-infant,,West III,Military Hospital,2014-10-15
+1.92E+38,3,non-infant,male,West II,Port Hospital,2014-10-30
+dee922,14,non-infant,female,Mountain Rural,Port Hospital,2014-09-26
+823533,13,non-infant,male,West III,Other,2014-07-14
+2e312f,12,non-infant,male,West III,Central Hospital,2014-10-10
+1eb9b6,3,non-infant,female,West III,SMMH,2014-08-24
+d0523a,14,non-infant,female,West II,,2014-05-26
+ee65e4,6,non-infant,male,West II,Port Hospital,2014-08-06
+895618,12,non-infant,female,West II,SMMH,2014-07-06
+bbfa93,7,non-infant,female,East II,Other,2014-06-20
+05c075,11,non-infant,male,East I,,2014-10-05
+c41648,11,non-infant,female,Central II,Other,2014-08-16
+f8318d,5,non-infant,female,Mountain Rural,Other,2014-07-15
+62b067,6,non-infant,male,Mountain Rural,Port Hospital,2014-09-20
+254930,8,non-infant,female,Mountain Rural,Central Hospital,2014-10-17
+604232,11,non-infant,male,Mountain Rural,Military Hospital,2014-11-05
+8b100a,16,non-infant,female,West II,Port Hospital,2014-09-24
+f13395,7,non-infant,female,Mountain Rural,Central Hospital,2014-08-17
+4e8054,9,non-infant,female,Mountain Rural,Other,2014-11-06
+f648f5,1,non-infant,female,Mountain Rural,,2014-07-06
+e0beeb,4,non-infant,male,Mountain Rural,,2014-11-15
+16dcd2,11,non-infant,female,West II,Military Hospital,2014-09-07
+57487,10,non-infant,male,East I,Other,2014-11-26
+5400a2,6,non-infant,female,Mountain Rural,,2014-07-09
+303410,7,non-infant,male,West III,Military Hospital,2014-11-04
+10cae2,10,non-infant,female,West II,Port Hospital,2014-10-18
+c8a9f2,1,non-infant,,East III,Other,2014-11-15
+f775f4,16,non-infant,male,East I,,2014-09-03
+47b1e8,2,non-infant,female,Mountain Rural,,2014-10-07
+3fa147,13,non-infant,male,East II,Other,2014-08-31
+08382e,8,non-infant,female,Mountain Rural,SMMH,2014-09-12
+30247e,9,non-infant,male,West II,Military Hospital,2014-11-27
+9849ee,9,non-infant,male,Central I,Military Hospital,2014-08-24
+4cff96,5,non-infant,male,Mountain Rural,Port Hospital,2014-06-16
+d01454,12,non-infant,,Central II,,2014-10-20
+5f8f6c,6,non-infant,female,West II,,2014-09-06
+da6eda,3,non-infant,female,West II,Port Hospital,2014-11-21
+3370a7,14,non-infant,male,East II,Port Hospital,2014-11-27
+4fa236,1,non-infant,male,Mountain Rural,Port Hospital,2014-11-02
+8e5bba,17,non-infant,female,Mountain Rural,Other,2014-09-30
+fe2849,5,non-infant,female,Central I,Port Hospital,2014-09-12
+fe9196,5,non-infant,male,West I,Military Hospital,2014-11-06
+f1d5e5,3,non-infant,male,Central I,Other,2014-07-06
+75a20a,4,non-infant,female,Central I,Port Hospital,2014-08-28
+6c2783,5,non-infant,female,Mountain Rural,,2014-06-28
+f60a47,5,non-infant,male,West III,Port Hospital,2014-11-18
+76b97a,6,non-infant,male,East I,Other,2014-05-25
+833a20,0.333333333333333,infant,male,West II,Port Hospital,2014-10-02
+3857bf,9,non-infant,male,Mountain Rural,,2014-09-12
+08f742,1,non-infant,male,West III,Other,2014-10-29
+18b45d,1,non-infant,female,Mountain Rural,Military Hospital,2014-10-16
+7bdda7,13,non-infant,female,West II,Port Hospital,2014-09-27
+c0f295,16,non-infant,male,West III,,2014-10-27
+642146,4,non-infant,female,Mountain Rural,Central Hospital,2014-11-07
+652088,1,non-infant,female,West I,,2014-11-19
+98992e,7,non-infant,male,West II,Military Hospital,2014-09-01
+52735e,6,non-infant,male,East II,Port Hospital,2014-09-08
+53f4ae,6,non-infant,female,Mountain Rural,Military Hospital,2014-08-04
+672ab9,5,non-infant,female,Central I,Other,2014-09-04
+99e1a5,8,non-infant,female,East I,Military Hospital,2014-10-18
+7ba3ff,11,non-infant,female,West III,Military Hospital,2014-10-13
+a356d4,7,non-infant,male,East II,Port Hospital,2014-10-11
+10cb7a,2,non-infant,female,West III,,2014-09-21
+cfe2c7,3,non-infant,male,West III,Military Hospital,2014-11-03
+36db8b,16,non-infant,male,Mountain Rural,Military Hospital,2014-10-06
+47d0b3,7,non-infant,female,East I,Other,2014-08-26
+c55720,16,non-infant,male,West II,Other,2014-09-25
+a55830,12,non-infant,female,West II,Other,2014-10-16
+e61715,17,non-infant,female,East II,Port Hospital,2014-09-14
+82b823,8,non-infant,male,West II,Port Hospital,2014-08-10
+619e1e,7,non-infant,female,West II,Other,2014-10-11
+8e43e6,17,non-infant,female,Mountain Rural,Military Hospital,2014-10-30
+d5f3c0,5,non-infant,male,East III,Military Hospital,2014-08-14
+0f5c6e,8,non-infant,female,West III,Port Hospital,2014-08-04
+983f4f,10,non-infant,female,East II,,2014-11-20
+d4df19,2,non-infant,female,Mountain Rural,Port Hospital,2014-09-10
+597f17,1,non-infant,female,West III,,2014-10-06
+3668fc,4,non-infant,female,East II,Port Hospital,2014-11-11
+74bea1,7,non-infant,male,West III,Other,2014-09-04
+c8ee00,0.25,infant,male,Mountain Rural,Other,2014-11-13
+944fd9,8,non-infant,female,Mountain Rural,Port Hospital,
+19703e,15,non-infant,female,West III,,2014-12-08
+7a17c7,12,non-infant,female,Central II,Port Hospital,
+376051,16,non-infant,male,West III,Port Hospital,2014-10-05
+e6590f,15,non-infant,female,Mountain Rural,,2014-09-15
+f15ceb,16,non-infant,male,East II,Military Hospital,2014-09-15
+b56849,8,non-infant,male,East II,Port Hospital,
+93bb41,8,non-infant,female,West III,SMMH,2014-09-20
+93bb41,8,non-infant,female,West III,SMMH,2014-09-20
+ab8deb,12,non-infant,male,Mountain Rural,Central Hospital,2014-09-16
+18ae3d,14,non-infant,female,West II,Port Hospital,2014-09-14
+ba4cfc,16,non-infant,female,Mountain Rural,,2014-10-26
+1cab44,1,non-infant,male,East II,Central Hospital,2014-10-26
+fe2e5a,16,non-infant,female,West II,,2014-10-16
+8dcafb,4,non-infant,male,East II,Port Hospital,2014-12-03
+059b73,0.916666666666667,infant,female,East II,Port Hospital,2014-11-28
+f63811,6,non-infant,female,East II,Port Hospital,2014-11-16
+4d9fa7,4,non-infant,female,Mountain Rural,Port Hospital,2014-08-02
+47dfcd,1,non-infant,female,West II,Port Hospital,2014-10-12
+cf7729,14,non-infant,female,Mountain Rural,Port Hospital,2014-11-09
+bd7b50,5,non-infant,female,Mountain Rural,Port Hospital,2014-09-10
+767320,10,non-infant,female,Central II,Port Hospital,2014-10-16
+aac49d,1,non-infant,male,West III,Other,2014-11-18
+10dd7d,11,non-infant,male,West III,,
+bc475c,4,non-infant,female,West II,Central Hospital,2014-11-01
+84dcda,10,non-infant,male,Mountain Rural,,2014-12-21

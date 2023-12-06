@@ -1,0 +1,27 @@
+Columna,Descripción
+case_id,número de identificación del caso asignado por el Ministerio de Sanidad
+date_onset,"fecha de inicio de los síntomas, AAAA-MM-DD"
+date_hospitalisation,"fecha de la hospitalización inicial, AAAA-MM-DD"
+date_outcome,fecha de la determinación del estado del resultado
+outcome,ya sea 'Muerte' o 'Recuperado' o 'Desconocido'
+gender,"ya sea ""m"" o ""f"" o ""desconocido"
+age,número de edad
+age_unit,"unidad de edad, ya sea ""años"" o ""meses"" o ""días"
+age_years,edad en años
+age_cat,"categoría de edad, ya sea ""0-4"" o ""5-9"" o ""10-14"" o ""15-19"" o ""20-29"" o ""30-49"" o ""50-69"" o ""70+"
+hospital,Nombre del hospital del primer ingreso
+lon,"longitud de la residencia, aproximadamente"
+lat,"latitud de residencia, aproximadamente"
+source,contexto del evento de transmisión conocido
+wt_kg,"peso, en kilogramos"
+ht_cm,"altura, en centímetros"
+ct_blood,recuento sanguíneo
+epilink,"si se estableció un vínculo epidemiológico con otro caso, ya sea ""sí"" o ""no"""
+lab_confirmed,"si el caso se confirmó mediante pruebas de laboratorio, ya sea TRUE o FALSE"
+case_def,"definición del caso, definida en el script R de limpieza basado en el epilink, la confirmación de laboratorio y la fiebre, como ""Confirmado"", ""Sospechoso"" o ""A investigar"""
+fever,"presencia de fiebre al ingreso, ya sea ""sí"" o ""no"
+chills,"presencia de escalofríos al ingreso, ya sea ""sí"" o ""no"
+cough,"presencia de tos al ingreso, ya sea ""sí"" o ""no"
+aches,"presencia de dolores al ingreso, ya sea ""sí"" o ""no"
+vomit,"presencia de vómitos al ingreso, ya sea ""sí"" o ""no"
+temp,"temperatura del paciente, en grados Celsius"

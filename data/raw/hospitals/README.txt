@@ -1,0 +1,1 @@
+linelists of Ebola patients admitted for care, as sent to you on the 1st of December 2014, from 4 different hospitals (Port Hospital, Military Hospital, St. Mark’s Maternity Hospital (SMMH), and Central Hospital). There are also files containing records from “Other” hospitals, and of patients for whom the hospital is “Missing”.

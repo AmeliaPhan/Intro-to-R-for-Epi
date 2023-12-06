@@ -1,0 +1,209 @@
+case_id,date_onset,date_report,diff,gender,age,age_unit,age_years,age_cat,hospital,district,district_res,district_det,moved,case_def,wt_kg,ht_cm,fever,chills,cough,aches,vomit,temp,bmi,admin3pcod,lab_confirmed,lat,lon,epilink
+6056ba,2014-10-20,2014-10-21,1,female,0,years,0,0-9,,West III,West III,West III,FALSE,Confirmed,,24,yes,yes,yes,no,yes,38.6,-190.9722222,SL040208,TRUE,8.467532548,-13.26645243,yes
+2ae019,2014-05-06,2014-05-11,5,male,37,years,37,30-39,Other,West III,West III,West III,FALSE,Confirmed,81,167,yes,no,yes,no,no,39.5,29.04370899,SL040208,TRUE,8.452506081,-13.26809408,yes
+7ca4c0,2014-09-29,2014-09-30,1,male,11,years,11,10-19,Port Hospital,West III,West III,West III,FALSE,Confirmed,56,163,yes,no,yes,no,no,38.9,21.07719523,SL040208,TRUE,8.456236008,-13.26695002,yes
+30af4f,,2014-11-10,,female,6,years,6,0-9,Port Hospital,West I,West I,West I,FALSE,Confirmed,30,75,no,no,yes,no,yes,37.5,53.33333333,SL040206,TRUE,8.47847955,-13.24747771,yes
+27c07d,2014-09-12,2014-09-15,3,male,20,years,20,20-29,Other,West II,West II,West II,FALSE,Confirmed,72,151,yes,yes,yes,yes,no,38.8,31.57756239,SL040207,TRUE,8.461030291,-13.23493492,yes
+8f654c,2014-10-19,2014-10-19,0,female,6,years,6,0-9,Military Hospital,West II,West II,West II,FALSE,Confirmed,37,86,yes,no,no,no,yes,39.2,50.02704164,SL040207,TRUE,8.465708204,-13.23316849,yes
+9b5dec,2014-09-07,2014-09-11,4,male,22,years,22,20-29,SMMH,West II,West II,West II,FALSE,Confirmed,60,159,yes,no,yes,no,yes,38.2,23.7332384,SL040207,TRUE,8.466538458,-13.23375243,yes
+f8cd8f,2014-10-18,2014-10-19,1,female,11,years,11,10-19,Port Hospital,West II,West II,West II,FALSE,Confirmed,47,114,no,no,yes,no,yes,37.5,36.16497384,SL040207,TRUE,8.467451204,-13.23348154,yes
+668458,2014-10-21,2014-10-23,2,male,19,years,19,10-19,SMMH,West III,West III,West III,FALSE,Confirmed,68,153,no,yes,yes,no,no,37.2,29.0486565,SL040208,TRUE,8.462788073,-13.26936217,yes
+890de4,2014-08-20,2014-08-21,1,female,30,years,30,30-39,Port Hospital,West II,West II,West II,FALSE,Confirmed,68,185,no,no,yes,yes,no,37.4,19.86851717,SL040207,TRUE,8.470057364,-13.23295639,yes
+53f6ed,2014-09-18,2014-09-23,5,female,0,years,0,0-9,,West III,West III,West III,FALSE,Confirmed,4,17,yes,yes,yes,no,no,38.7,138.4083045,SL040208,TRUE,8.457538781,-13.25884469,yes
+9d4019,2014-05-13,2014-05-16,3,male,17,years,17,10-19,Military Hospital,West III,West III,West III,FALSE,Confirmed,61,130,no,no,yes,no,yes,37.6,36.09467456,SL040208,TRUE,8.461098345,-13.26737123,yes
+7c06a7,2014-11-25,2014-11-28,3,male,1,years,1,0-9,SMMH,West III,West III,West III,FALSE,Confirmed,17,42,no,no,no,no,no,36.7,96.37188209,SL040208,TRUE,8.479980308,-13.26458687,yes
+e2035e,2014-11-23,2014-11-24,1,male,5,years,5,0-9,Military Hospital,West II,West II,West II,FALSE,Confirmed,42,98,yes,no,yes,no,no,38.3,43.73177843,SL040207,TRUE,8.460272354,-13.2238546,yes
+497372,,2014-07-31,,male,10,years,10,10-19,Other,West III,West III,West III,FALSE,Confirmed,53,134,no,yes,yes,no,yes,37.3,29.51659612,SL040208,TRUE,8.475087139,-13.26809237,yes
+1fb87a,2014-10-25,2014-10-27,2,male,22,years,22,20-29,Military Hospital,West I,West I,West I,FALSE,Confirmed,63,164,yes,no,no,no,no,39.9,23.42355741,SL040206,TRUE,8.480347472,-13.25002969,yes
+fba9ac,2014-09-12,2014-09-24,12,female,9,years,9,0-9,Port Hospital,West III,West III,West III,FALSE,Confirmed,47,112,yes,yes,yes,no,no,38.9,37.46811224,SL040208,TRUE,8.454966837,-13.26427603,yes
+928277,2014-10-08,2014-10-12,4,male,0,years,0,0-9,Central Hospital,West III,West III,West III,FALSE,Confirmed,12,34,yes,no,yes,no,yes,38.5,103.8062284,SL040208,TRUE,8.453813139,-13.26668525,yes
+6e3dfe,2014-08-21,2014-08-29,8,male,20,years,20,20-29,,West II,West II,West II,FALSE,Confirmed,59,128,yes,no,yes,no,yes,38.7,36.01074219,SL040207,TRUE,8.468094444,-13.23963799,yes
+f2b659,2014-11-11,2014-11-11,0,male,45,years,45,40-49,Port Hospital,West III,West III,West III,FALSE,Confirmed,79,231,yes,no,yes,no,yes,39.3,14.80482,SL040208,TRUE,8.46373673,-13.26297352,yes
+cb8d85,2014-10-05,2014-10-06,1,male,4,years,4,0-9,Other,West II,West II,West II,FALSE,Confirmed,43,80,yes,no,no,no,no,39,67.1875,SL040207,TRUE,8.46790521,-13.23509344,yes
+15d750,2014-09-10,2014-09-14,4,male,23,years,23,20-29,Port Hospital,West II,West II,West II,FALSE,Confirmed,72,134,yes,no,yes,yes,yes,39.3,40.09801738,SL040207,TRUE,8.467531484,-13.23730918,yes
+c62127,2014-07-02,2014-07-03,1,male,5,years,5,0-9,Port Hospital,West III,West III,West III,FALSE,Confirmed,60,87,yes,no,yes,no,no,38.9,79.27070947,SL040208,TRUE,8.458107379,-13.2593132,yes
+764d43,2014-10-03,2014-10-03,0,male,22,years,22,20-29,,West II,West II,West II,FALSE,Confirmed,67,142,yes,no,yes,no,no,40.1,33.22753422,SL040207,TRUE,8.473817905,-13.25416788,yes
+d5f42d,2014-10-24,2014-10-26,2,female,13,years,13,10-19,Other,West I,West I,West I,FALSE,Confirmed,45,122,no,no,yes,no,yes,37.2,30.23380812,SL040206,TRUE,8.485690348,-13.24845002,yes
+b7b32a,2014-11-03,2014-11-03,0,female,19,years,19,10-19,SMMH,West I,West I,West I,FALSE,Confirmed,52,119,yes,no,yes,no,yes,38.4,36.72057058,SL040206,TRUE,8.475701874,-13.25150869,yes
+c146f2,2014-11-25,2014-11-26,1,male,16,years,16,10-19,,West II,West II,West II,FALSE,Confirmed,62,175,yes,no,yes,no,no,40,20.24489796,SL040207,TRUE,8.470023532,-13.2383652,yes
+30ed05,2014-08-04,2014-08-07,3,female,25,years,25,20-29,Port Hospital,West II,West II,West II,FALSE,Confirmed,56,114,yes,no,yes,no,yes,39.5,43.09018159,SL040207,TRUE,8.472157108,-13.23183588,yes
+8a6984,2014-09-08,2014-09-12,4,female,19,years,19,10-19,Other,West II,West II,West II,FALSE,Confirmed,60,139,yes,no,yes,no,no,39.7,31.05429326,SL040207,TRUE,8.466865978,-13.23335326,yes
+e83df3,,2014-11-18,,male,22,years,22,20-29,Port Hospital,West II,West II,West II,FALSE,Confirmed,68,169,yes,no,yes,no,yes,38.8,23.80869017,SL040207,TRUE,8.461222151,-13.2232816,yes
+9e0ce3,2014-10-29,2014-10-30,1,female,2,years,2,0-9,Port Hospital,West III,West III,West III,FALSE,Confirmed,42,45,yes,no,yes,no,no,40.3,207.4074074,SL040208,TRUE,8.479773004,-13.2629609,yes
+a52491,2014-09-25,2014-09-27,2,female,12,years,12,10-19,Port Hospital,West II,West II,West II,FALSE,Confirmed,55,118,yes,no,yes,yes,yes,38.3,39.50014364,SL040207,TRUE,8.467038945,-13.24665996,yes
+aba6e2,2014-09-29,2014-10-01,2,,,years,,,Port Hospital,West I,West I,West I,FALSE,Confirmed,48,68,yes,no,yes,no,yes,38.7,103.8062284,SL040206,TRUE,8.482729529,-13.24749571,yes
+e97396,2014-09-26,2014-09-27,1,male,27,years,27,20-29,Port Hospital,West III,West III,West III,FALSE,Confirmed,65,115,yes,no,yes,no,no,38.1,49.14933837,SL040208,TRUE,8.465053707,-13.26364781,yes
+c3c129,2014-10-09,2014-10-11,2,male,23,years,23,20-29,,West II,West II,West II,FALSE,Confirmed,67,150,yes,yes,no,no,no,38.5,29.77777778,SL040207,TRUE,8.469805662,-13.23692546,yes
+2d7305,2014-10-26,2014-10-29,3,female,1,years,1,0-9,,West II,West II,West II,FALSE,Confirmed,12,34,yes,yes,yes,yes,yes,38.8,103.8062284,SL040207,TRUE,8.464613137,-13.23353504,yes
+5a7acc,2014-09-01,2014-09-12,11,female,13,years,13,10-19,Central Hospital,West II,West II,West II,FALSE,Confirmed,63,148,no,yes,yes,yes,yes,36.2,28.76186998,SL040207,TRUE,8.469832832,-13.23736668,yes
+8a3c52,2014-09-27,2014-09-27,0,female,2,years,2,0-9,Port Hospital,West II,West II,West II,FALSE,Confirmed,17,33,yes,no,yes,no,yes,38.9,156.1065197,SL040207,TRUE,8.466989004,-13.23204236,yes
+21957a,2014-11-01,2014-11-03,2,female,4,years,4,0-9,Military Hospital,West III,West III,West III,FALSE,Confirmed,39,82,yes,no,yes,no,yes,39.5,58.00118977,SL040208,TRUE,8.455428465,-13.26574571,yes
+a0ab0d,2014-11-01,2014-11-02,1,male,28,years,28,20-29,Port Hospital,West II,West II,West II,FALSE,Confirmed,62,161,yes,no,no,no,yes,39.5,23.91883029,SL040207,TRUE,8.483293432,-13.25572567,yes
+b54b56,2014-10-22,2014-10-23,1,female,7,years,7,0-9,Port Hospital,West III,West III,West III,FALSE,Confirmed,34,88,yes,no,yes,no,no,39.3,43.90495868,SL040208,TRUE,8.460922221,-13.26898606,yes
+b5c984,2014-08-29,2014-08-31,2,male,17,years,17,10-19,,West III,West III,West III,FALSE,Confirmed,62,155,yes,no,yes,yes,no,38.7,25.80645161,SL040208,TRUE,8.459610805,-13.25527036,yes
+59eb95,2014-10-25,2014-10-25,0,,,years,,,Port Hospital,West III,West III,West III,FALSE,Confirmed,61,120,yes,no,yes,no,yes,39.4,42.36111111,SL040208,TRUE,8.460539839,-13.26566774,yes
+c80572,2014-10-24,2014-10-24,0,male,32,years,32,30-39,,West II,West II,West II,FALSE,Confirmed,74,178,yes,no,yes,yes,no,38.8,23.35563691,SL040207,TRUE,8.469832192,-13.23701043,yes
+ad3141,2014-08-11,2014-08-15,4,male,1,years,1,0-9,Port Hospital,West II,West II,West II,FALSE,Confirmed,19,46,yes,yes,no,no,no,39.1,89.79206049,SL040207,TRUE,8.471132951,-13.23667406,yes
+36391a,2014-09-18,2014-09-19,1,male,32,years,32,30-39,,West III,West III,West III,FALSE,Confirmed,78,209,yes,no,no,no,yes,38,17.85673405,SL040208,TRUE,8.475499365,-13.26314093,yes
+dd977e,2014-09-23,2014-09-25,2,female,0,years,0,0-9,Port Hospital,West II,West II,West II,FALSE,Confirmed,,15,yes,yes,yes,yes,yes,39.5,-222.2222222,SL040207,TRUE,8.461192004,-13.23441284,yes
+1a0bf0,,2014-10-12,,male,42,years,42,40-49,,West III,West III,West III,FALSE,Confirmed,88,182,yes,no,yes,no,yes,39.4,26.56683975,SL040208,TRUE,8.457270021,-13.25210387,yes
+eabb2a,2014-07-04,2014-07-09,5,female,3,years,3,0-9,Port Hospital,West III,West III,West III,FALSE,Confirmed,24,50,yes,no,yes,no,no,39.1,96,SL040208,TRUE,8.456917761,-13.2612265,yes
+c9783b,2014-09-08,2014-09-11,3,female,2,years,2,0-9,Other,West I,West I,West I,FALSE,Confirmed,19,26,no,no,yes,no,yes,36.6,281.0650888,SL040206,TRUE,8.483678807,-13.24652591,yes
+77a257,2014-11-23,2014-11-23,0,,9,years,9,0-9,Port Hospital,West III,West III,West III,FALSE,Confirmed,42,99,yes,no,yes,no,yes,38.5,42.85277013,SL040208,TRUE,8.455143548,-13.25906211,yes
+15de43,2014-09-20,2014-09-20,0,male,57,years,57,50-59,Port Hospital,West II,West II,West II,FALSE,Confirmed,93,226,yes,no,yes,no,no,39.5,18.20816039,SL040207,TRUE,8.468091703,-13.24942191,yes
+5afc68,,2014-10-12,,female,7,years,7,0-9,Other,West III,West III,West III,FALSE,Confirmed,31,92,yes,no,yes,no,no,39.4,36.62570888,SL040208,TRUE,8.479522033,-13.2646264,yes
+ade678,2014-09-03,2014-09-07,4,male,36,years,36,30-39,,West II,West II,West II,FALSE,Confirmed,81,189,yes,no,yes,yes,no,39,22.67573696,SL040207,TRUE,8.461436951,-13.23435992,yes
+2aa439,2014-10-25,2014-10-26,1,male,39,years,39,30-39,Port Hospital,West II,West II,West II,FALSE,Confirmed,75,176,yes,no,yes,no,yes,39,24.21229339,SL040207,TRUE,8.463106195,-13.2249439,yes
+68f4a0,2014-08-17,2014-08-24,7,female,22,years,22,20-29,Military Hospital,West II,West II,West II,FALSE,Confirmed,62,105,yes,no,yes,no,yes,39.1,56.23582766,SL040207,TRUE,8.460872002,-13.22420245,yes
+db8ca7,2014-09-22,2014-09-25,3,female,15,years,15,10-19,Port Hospital,West II,West II,West II,FALSE,Confirmed,56,115,yes,no,yes,no,no,40.1,42.34404537,SL040207,TRUE,8.462678962,-13.2233358,yes
+fa8d63,2014-08-27,2014-09-02,6,,24,years,24,20-29,,West II,West II,West II,FALSE,Confirmed,66,164,no,no,yes,no,yes,36.2,24.5389649,SL040207,TRUE,8.468281554,-13.23465709,yes
+9df68c,2014-08-22,2014-08-31,9,female,14,years,14,10-19,,West III,West III,West III,FALSE,Confirmed,48,150,yes,no,yes,no,yes,38.7,21.33333333,SL040208,TRUE,8.463987446,-13.26922739,yes
+fb5b29,2014-11-26,2014-11-30,4,female,1,years,1,0-9,Port Hospital,West II,West II,West II,FALSE,Confirmed,22,50,yes,no,yes,no,no,38.5,88,SL040207,TRUE,8.462601435,-13.23095388,yes
+e38b62,2014-10-22,2014-10-23,1,female,9,years,9,0-9,,West II,West II,West II,FALSE,Confirmed,48,118,yes,no,yes,no,yes,39.6,34.47285263,SL040207,TRUE,8.467327587,-13.23438811,yes
+2a16aa,2014-11-01,2014-11-02,1,female,25,years,25,20-29,Other,West II,West II,West II,FALSE,Confirmed,56,170,yes,no,yes,no,yes,39.6,19.37716263,SL040207,TRUE,8.469650262,-13.24702788,yes
+5c27ca,2014-09-22,2014-09-24,2,female,2,years,2,0-9,,West III,West III,West III,FALSE,Confirmed,21,39,yes,no,yes,no,no,39.1,138.0670611,SL040208,TRUE,8.484846588,-13.26331781,yes
+0f70b1,2014-11-05,2014-11-06,1,female,27,years,27,20-29,,West II,West II,West II,FALSE,Confirmed,61,176,yes,no,no,no,no,39.7,19.69266529,SL040207,TRUE,8.459933598,-13.23492775,yes
+cd7bff,2014-11-02,2014-11-05,3,male,4,years,4,0-9,Military Hospital,West II,West II,West II,FALSE,Confirmed,47,81,yes,yes,yes,no,no,38.7,71.63542143,SL040207,TRUE,8.469456056,-13.23400724,yes
+26028b,2014-11-25,2014-11-25,0,male,8,years,8,0-9,,West II,West II,West II,FALSE,Confirmed,46,101,yes,yes,yes,no,yes,39.3,45.09361827,SL040207,TRUE,8.464668545,-13.24508864,yes
+fb2536,2014-07-29,2014-08-05,7,female,7,years,7,0-9,,West III,West III,West III,FALSE,Confirmed,46,94,yes,no,yes,no,yes,39.5,52.05975555,SL040208,TRUE,8.454180023,-13.25928739,yes
+3f5fe1,2014-08-22,2014-08-24,2,female,27,years,27,20-29,SMMH,West III,West III,West III,FALSE,Confirmed,66,125,yes,no,no,no,no,39.1,42.24,SL040208,TRUE,8.459285338,-13.2551559,yes
+c9eb1f,2014-10-14,2014-10-14,0,female,1,years,1,0-9,Port Hospital,West III,West III,West III,FALSE,Confirmed,7,35,yes,no,yes,no,yes,39.5,57.14285714,SL040208,TRUE,8.459238924,-13.26719008,yes
+c1978f,2014-10-12,2014-10-14,2,female,11,years,11,10-19,Other,West II,West II,West II,FALSE,Confirmed,49,112,,,,,,36.8,39.0625,SL040207,TRUE,8.468040038,-13.24750055,yes
+7a1964,2014-09-27,2014-10-02,5,female,11,years,11,10-19,Central Hospital,West II,West II,West II,FALSE,Confirmed,45,124,yes,no,yes,no,no,39.5,29.26638918,SL040207,TRUE,8.46122389,-13.23319977,yes
+25f3d9,2014-09-16,2014-09-17,1,male,35,years,35,30-39,Military Hospital,West III,West III,West III,FALSE,Confirmed,78,193,yes,no,yes,no,no,39.3,20.94015947,SL040208,TRUE,8.459778613,-13.25585755,yes
+ad6cac,2014-10-11,2014-10-13,2,female,8,years,8,0-9,,West III,West III,West III,FALSE,Confirmed,47,83,yes,no,yes,no,no,38.3,68.22470605,SL040208,TRUE,8.455013665,-13.26368502,yes
+d07e11,2014-11-03,2014-11-06,3,male,24,years,24,20-29,Port Hospital,West II,West II,West II,FALSE,Confirmed,71,157,yes,no,no,no,yes,39.1,28.80441397,SL040207,TRUE,8.474636934,-13.23790081,yes
+7180ae,2014-10-21,2014-10-21,0,male,3,years,3,0-9,Port Hospital,West III,West III,West III,FALSE,Confirmed,32,64,yes,yes,yes,no,no,39,78.125,SL040208,TRUE,8.482223943,-13.26579855,yes
+128d10,2014-09-13,2014-09-19,6,male,7,years,7,0-9,Port Hospital,West I,West I,West I,FALSE,Confirmed,52,107,yes,yes,yes,no,no,38.9,45.41881387,SL040206,TRUE,8.483185751,-13.24813111,yes
+64b7b0,2014-09-11,2014-09-11,0,male,39,years,39,30-39,,West III,West III,West III,FALSE,Confirmed,72,176,no,no,yes,yes,no,36.7,23.24380165,SL040208,TRUE,8.478093408,-13.27062029,yes
+2f29c3,2014-09-16,2014-09-17,1,female,51,years,51,50-59,Military Hospital,West II,West II,West II,FALSE,Confirmed,87,234,no,yes,yes,no,yes,37.3,15.88866973,SL040207,TRUE,8.468175086,-13.23262913,yes
+88632e,2014-08-18,2014-08-20,2,male,22,years,22,20-29,,West III,West III,West III,FALSE,Confirmed,64,154,yes,no,yes,yes,yes,39,26.98600101,SL040208,TRUE,8.460641617,-13.25421813,yes
+62638,2014-07-25,2014-07-27,2,male,13,years,13,10-19,Central Hospital,West III,West III,West III,FALSE,Confirmed,61,125,no,no,yes,no,yes,37.5,39.04,SL040208,TRUE,,,yes
+d42571,2014-11-14,2014-11-15,1,female,20,years,20,20-29,SMMH,West I,West I,West I,FALSE,Confirmed,56,138,yes,yes,yes,no,no,38.8,29.40558706,SL040206,TRUE,8.479045533,-13.24735639,yes
+e067e0,2014-09-16,2014-09-22,6,male,29,years,29,20-29,Port Hospital,West II,West II,West II,FALSE,Confirmed,71,173,yes,no,yes,no,yes,38.7,23.72281065,SL040207,TRUE,8.463232261,-13.2369097,yes
+ded352,2014-07-25,2014-07-30,5,female,27,years,27,20-29,Port Hospital,West III,West III,West III,FALSE,Confirmed,71,140,yes,no,yes,no,yes,39.8,36.2244898,SL040208,TRUE,8.449958749,-13.2670022,yes
+6c1185,2014-09-27,2014-09-29,2,female,29,years,29,20-29,,West II,West II,West II,FALSE,Confirmed,66,152,,,,,,36.5,28.56648199,SL040207,TRUE,8.470262146,-13.23374366,yes
+b016e0,2014-08-14,2014-08-18,4,male,45,years,45,40-49,Central Hospital,West II,West II,West II,FALSE,Confirmed,97,217,yes,no,yes,no,no,38.4,20.5992907,SL040207,TRUE,8.481836804,-13.25709877,yes
+ce4ec6,,2014-07-25,,female,3,years,3,0-9,,West III,West III,West III,FALSE,Confirmed,34,58,yes,no,no,no,no,38.7,101.0701546,SL040208,TRUE,8.467722809,-13.2678625,yes
+e36e1f,2014-09-29,2014-09-30,1,male,5,years,5,0-9,Central Hospital,West II,West II,West II,FALSE,Confirmed,54,64,yes,no,yes,no,yes,39.4,131.8359375,SL040207,TRUE,8.468739201,-13.23860111,yes
+d2d95d,2014-07-27,2014-08-03,7,female,26,years,26,20-29,Military Hospital,West II,West II,West II,FALSE,Confirmed,65,154,yes,no,yes,no,yes,39.3,27.40765728,SL040207,TRUE,8.471601677,-13.2480535,yes
+f1dd78,2014-11-04,2014-11-05,1,,26,years,26,20-29,Central Hospital,West III,West III,West III,FALSE,Confirmed,62,180,yes,no,yes,no,yes,38.8,19.13580247,SL040208,TRUE,8.456454809,-13.25492912,yes
+922374,2014-10-16,2014-10-16,0,female,0,years,0,0-9,,West III,West III,West III,FALSE,Confirmed,8,30,yes,no,yes,no,no,38.4,88.88888889,SL040208,TRUE,8.47530013,-13.26677076,yes
+d6c884,2014-11-18,2014-11-20,2,female,21,years,21,20-29,Other,West III,West III,West III,FALSE,Confirmed,58,156,no,no,yes,no,yes,36.4,23.8330046,SL040208,TRUE,8.457407189,-13.25535296,yes
+5715b7,2014-09-25,2014-09-25,0,female,8,years,8,0-9,Military Hospital,West III,West III,West III,FALSE,Confirmed,39,97,yes,yes,yes,no,no,38.8,41.44967584,SL040208,TRUE,8.463526449,-13.26156241,yes
+215cee,2014-09-07,2014-09-10,3,male,32,years,32,30-39,Port Hospital,West II,West II,West II,FALSE,Confirmed,65,189,no,no,yes,no,no,37.3,18.19657904,SL040207,TRUE,8.472909971,-13.25243436,yes
+f51a50,,2014-08-26,,female,33,years,33,30-39,,West II,West II,West II,FALSE,Confirmed,67,176,yes,yes,no,no,no,39.5,21.62964876,SL040207,TRUE,8.471016633,-13.23541335,yes
+72fdfe,2014-11-27,2014-11-27,0,female,9,years,9,0-9,,West III,West III,West III,FALSE,Confirmed,41,100,yes,no,yes,no,yes,39.4,41,SL040208,TRUE,8.463348376,-13.26336411,yes
+4288fd,2014-09-13,2014-09-13,0,female,16,years,16,10-19,Other,West III,West III,West III,FALSE,Confirmed,60,109,yes,no,yes,no,no,39.3,50.5007996,SL040208,TRUE,8.467531267,-13.2646704,yes
+bdfe4b,2014-09-19,2014-09-22,3,female,22,years,22,20-29,,West III,West III,West III,FALSE,Confirmed,56,112,yes,no,yes,no,yes,40.2,44.64285714,SL040208,TRUE,8.451473419,-13.26874926,yes
+10ddce,2014-09-23,2014-09-25,2,female,23,years,23,20-29,Other,West III,West III,West III,FALSE,Confirmed,63,172,yes,no,yes,yes,no,38.7,21.29529475,SL040208,TRUE,8.455033346,-13.25997518,yes
+e09a19,2014-11-15,2014-11-16,1,male,28,years,28,20-29,Military Hospital,West III,West III,West III,FALSE,Confirmed,56,200,no,no,yes,no,yes,36.6,14,SL040208,TRUE,8.459797325,-13.26777326,yes
+5.34E+51,2014-10-08,2014-10-08,0,male,31,years,31,30-39,,West II,West II,West II,FALSE,Confirmed,70,179,yes,no,yes,no,yes,38.9,21.84700852,SL040207,TRUE,,,yes
+e81e6a,2014-11-28,2014-11-29,1,male,13,years,13,10-19,SMMH,West II,West II,West II,FALSE,Confirmed,67,146,no,no,yes,no,yes,36.8,31.43178833,SL040207,TRUE,8.461198652,-13.22956757,yes
+b345c5,2014-10-13,2014-10-14,1,female,1,years,1,0-9,Other,West II,West II,West II,FALSE,Confirmed,12,44,yes,no,yes,yes,yes,39.2,61.98347107,SL040207,TRUE,8.469415459,-13.22861161,yes
+dd44f3,2014-09-20,2014-09-22,2,female,16,years,16,10-19,Other,West III,West III,West III,FALSE,Confirmed,59,135,yes,yes,yes,no,yes,38.4,32.37311385,SL040208,TRUE,8.458679589,-13.26033721,yes
+050eca,2014-10-24,2014-10-27,3,female,15,years,15,10-19,Port Hospital,West III,West III,West III,FALSE,Confirmed,51,110,yes,yes,yes,no,no,39,42.14876033,SL040208,TRUE,8.455110479,-13.2666232,yes
+a9695f,2014-10-21,2014-10-22,1,female,2,years,2,0-9,Port Hospital,West II,West II,West II,FALSE,Confirmed,30,36,yes,no,yes,no,no,38.1,231.4814815,SL040207,TRUE,8.468473124,-13.23423296,yes
+a38790,2014-10-25,2014-10-25,0,female,10,years,10,10-19,Port Hospital,West II,West II,West II,FALSE,Confirmed,45,121,,,,,,37.5,30.73560549,SL040207,TRUE,8.460734274,-13.23547714,yes
+df052c,2014-10-04,2014-10-05,1,male,8,years,8,0-9,,West II,West II,West II,FALSE,Confirmed,47,118,yes,no,no,yes,yes,39,33.7546682,SL040207,TRUE,8.473587431,-13.25369679,yes
+7f0470,2014-10-27,2014-10-29,2,female,9,years,9,0-9,Other,West III,West III,West III,FALSE,Confirmed,46,111,yes,yes,yes,no,no,39.2,37.33463193,SL040208,TRUE,8.469858535,-13.27101162,yes
+9.20E+130,2014-08-10,2014-08-12,2,female,12,years,12,10-19,Central Hospital,West II,West II,West II,FALSE,Confirmed,51,125,,,,,,36.6,32.64,SL040207,TRUE,,,yes
+5c1d6e,2014-07-26,2014-08-08,13,male,11,years,11,10-19,,West III,West III,West III,FALSE,Confirmed,55,160,yes,no,yes,no,yes,38.9,21.484375,SL040208,TRUE,8.474755157,-13.26544234,yes
+5c9744,2014-09-24,2014-09-24,0,female,10,years,10,10-19,Central Hospital,West III,West III,West III,FALSE,Confirmed,42,112,yes,no,yes,no,yes,39,33.48214286,SL040208,TRUE,8.459999427,-13.26653743,yes
+cc30ed,2014-10-25,2014-10-26,1,female,9,years,9,0-9,,West III,West III,West III,FALSE,Confirmed,47,104,,,,,,36.8,43.45414201,SL040208,TRUE,8.454491308,-13.26583448,yes
+8bd455,2014-08-30,2014-09-02,3,male,10,years,10,10-19,Other,West III,West III,West III,FALSE,Confirmed,60,135,yes,no,yes,no,no,39,32.9218107,SL040208,TRUE,8.463693278,-13.26239684,yes
+d9bb43,2014-11-04,2014-11-05,1,female,13,years,13,10-19,,West III,West III,West III,FALSE,Confirmed,57,138,yes,no,yes,no,yes,39.5,29.93068683,SL040208,TRUE,8.463469769,-13.26736242,yes
+e5998f,2014-09-17,2014-09-18,1,male,7,years,7,0-9,Military Hospital,West II,West II,West II,FALSE,Confirmed,43,121,yes,no,no,no,no,40,29.36957858,SL040207,TRUE,8.475869233,-13.23756034,yes
+c230ae,2014-11-16,2014-11-16,0,male,15,years,15,10-19,Military Hospital,West III,West III,West III,FALSE,Confirmed,59,152,yes,no,yes,no,yes,39.5,25.5367036,SL040208,TRUE,8.453783494,-13.26144886,yes
+8c3a73,2014-10-05,2014-10-06,1,male,11,years,11,10-19,,West II,West II,West II,FALSE,Confirmed,69,148,yes,no,yes,no,no,39.2,31.50109569,SL040207,TRUE,8.469108772,-13.2374942,yes
+730b25,2014-08-04,2014-08-04,0,female,14,years,14,10-19,Port Hospital,West I,West I,West I,FALSE,Confirmed,66,135,yes,no,yes,no,no,38.7,36.21399177,SL040206,TRUE,8.483044036,-13.24383671,yes
+506dfc,2014-10-13,2014-10-13,0,male,11,years,11,10-19,Central Hospital,West I,West I,West I,FALSE,Confirmed,54,122,yes,no,yes,no,no,38.8,36.28056974,SL040206,TRUE,8.485211451,-13.247536,yes
+657880,2014-10-08,2014-10-10,2,male,20,years,20,20-29,Port Hospital,West II,West II,West II,FALSE,Confirmed,56,163,yes,no,yes,no,no,38.7,21.07719523,SL040207,TRUE,8.47142118,-13.23431045,yes
+a0bc11,2014-09-17,2014-09-18,1,female,6,years,6,0-9,Other,West III,West III,West III,FALSE,Confirmed,21,77,yes,no,yes,no,yes,38.6,35.41912633,SL040208,TRUE,8.464149377,-13.26134389,yes
+176b73,2014-10-03,2014-10-04,1,female,24,years,24,20-29,,West III,West III,West III,FALSE,Confirmed,57,160,no,no,yes,no,no,36.3,22.265625,SL040208,TRUE,8.478471288,-13.26280999,yes
+27adef,2014-08-11,2014-08-14,3,male,3,years,3,0-9,,West II,West II,West II,FALSE,Confirmed,46,73,no,no,yes,no,no,36.9,86.32013511,SL040207,TRUE,8.463045406,-13.23240227,yes
+00c3c7,2014-11-16,2014-11-17,1,female,13,years,13,10-19,Port Hospital,West II,West II,West II,FALSE,Confirmed,62,139,yes,no,yes,no,no,39,32.08943636,SL040207,TRUE,8.466387984,-13.23329077,yes
+1ad5d8,2014-11-06,2014-11-08,2,female,16,years,16,10-19,Port Hospital,West II,West II,West II,FALSE,Confirmed,54,121,yes,yes,yes,no,no,39.3,36.88272659,SL040207,TRUE,8.471513597,-13.23365488,yes
+098ddf,2014-09-09,2014-09-10,1,female,27,years,27,20-29,Port Hospital,West II,West II,West II,FALSE,Confirmed,64,203,yes,yes,yes,no,no,38.9,15.53058798,SL040207,TRUE,8.468092288,-13.23833481,yes
+7864f6,2014-11-12,2014-11-12,0,female,16,years,16,10-19,Port Hospital,West II,West II,West II,FALSE,Confirmed,52,122,yes,no,yes,no,yes,39.5,34.93684493,SL040207,TRUE,8.470776239,-13.23549969,yes
+269ddd,2014-08-24,2014-08-25,1,male,1,years,1,0-9,Military Hospital,West III,West III,West III,FALSE,Confirmed,14,48,yes,no,yes,no,yes,38.8,60.76388889,SL040208,TRUE,8.464928209,-13.26000653,yes
+de3b80,2014-11-08,2014-11-10,2,female,16,years,16,10-19,,West II,West II,West II,FALSE,Confirmed,56,100,no,no,yes,no,yes,37.2,56,SL040207,TRUE,8.475543024,-13.23676764,yes
+02502c,2014-09-27,2014-09-28,1,female,12,years,12,10-19,,West III,West III,West III,FALSE,Confirmed,50,118,yes,yes,yes,no,yes,39,35.90922149,SL040208,TRUE,8.453671702,-13.26517016,yes
+78e5b6,2014-08-14,2014-08-24,10,female,18,years,18,10-19,Port Hospital,West II,West II,West II,FALSE,Confirmed,50,134,yes,no,yes,yes,no,38.6,27.8458454,SL040207,TRUE,8.470878926,-13.23718453,yes
+d3cff4,2014-09-14,2014-09-14,0,female,14,years,14,10-19,,West III,West III,West III,FALSE,Confirmed,61,152,yes,no,yes,no,no,39.7,26.40235457,SL040208,TRUE,8.455975144,-13.26079272,yes
+474f41,2014-09-12,2014-09-12,0,male,8,years,8,0-9,Port Hospital,West III,West III,West III,FALSE,Confirmed,46,116,yes,no,yes,no,no,39.2,34.18549346,SL040208,TRUE,8.45481604,-13.26097775,yes
+5fa181,2014-09-27,2014-09-29,2,female,29,years,29,20-29,Military Hospital,West II,West II,West II,FALSE,Confirmed,67,187,,,,,,36.8,19.15982728,SL040207,TRUE,8.461977716,-13.22311015,yes
+0be051,2014-10-14,2014-10-15,1,,3,years,3,0-9,Military Hospital,West III,West III,West III,FALSE,Confirmed,39,78,yes,yes,yes,no,yes,39.1,64.1025641,SL040208,TRUE,8.471660163,-13.26584618,yes
+1.92E+38,2014-10-28,2014-10-30,2,male,3,years,3,0-9,Port Hospital,West II,West II,West II,FALSE,Confirmed,46,65,yes,no,yes,no,yes,38.5,108.8757396,SL040207,TRUE,,,yes
+823533,2014-07-11,2014-07-14,3,male,13,years,13,10-19,Other,West III,West III,West III,FALSE,Confirmed,71,144,no,no,yes,no,yes,37.3,34.23996914,SL040208,TRUE,8.480455378,-13.26307007,yes
+2e312f,2014-10-08,2014-10-10,2,male,12,years,12,10-19,Central Hospital,West III,West III,West III,FALSE,Confirmed,64,131,yes,no,yes,no,yes,39.1,37.29386399,SL040208,TRUE,8.461060184,-13.26630314,yes
+18f408,2014-08-09,2014-08-13,4,male,41,years,41,40-49,Port Hospital,West II,West II,West II,FALSE,Confirmed,78,172,yes,no,yes,no,no,38.5,26.36560303,SL040207,TRUE,8.483438949,-13.25794668,yes
+1eb9b6,2014-08-22,2014-08-24,2,female,3,years,3,0-9,SMMH,West III,West III,West III,FALSE,Confirmed,21,45,yes,no,yes,no,yes,39.3,103.7037037,SL040208,TRUE,8.454566378,-13.26020659,yes
+d0523a,2014-05-24,2014-05-26,2,female,14,years,14,10-19,,West II,West II,West II,FALSE,Confirmed,69,126,yes,yes,yes,no,yes,39.2,43.46182918,SL040207,TRUE,8.48379248,-13.2565629,yes
+ee65e4,2014-07-31,2014-08-06,6,male,6,years,6,0-9,Port Hospital,West II,West II,West II,FALSE,Confirmed,50,102,yes,yes,yes,no,yes,39.3,48.05843906,SL040207,TRUE,8.470375808,-13.23375087,yes
+895618,2014-07-06,2014-07-06,0,female,12,years,12,10-19,SMMH,West II,West II,West II,FALSE,Confirmed,55,128,yes,yes,yes,no,yes,38.3,33.56933594,SL040207,TRUE,8.460715138,-13.22442242,yes
+d0288c,2014-09-08,2014-09-10,2,female,30,years,30,30-39,Military Hospital,West III,West III,West III,FALSE,Confirmed,58,182,yes,yes,yes,no,no,38.6,17.50996256,SL040208,TRUE,8.452429309,-13.26706042,yes
+d7824d,2014-11-20,2014-11-23,3,male,50,years,50,50-59,Other,West III,West III,West III,FALSE,Confirmed,87,209,yes,yes,yes,no,no,38.6,19.91712644,SL040208,TRUE,8.480628621,-13.26477763,yes
+5a7920,2014-09-30,2014-10-05,5,male,30,years,30,30-39,SMMH,West II,West II,West II,FALSE,Confirmed,73,158,yes,no,no,no,no,39.4,29.24210864,SL040207,TRUE,8.47385368,-13.25314465,yes
+8b100a,2014-09-22,2014-09-24,2,female,16,years,16,10-19,Port Hospital,West II,West II,West II,FALSE,Confirmed,54,122,no,yes,yes,no,no,36.5,36.28056974,SL040207,TRUE,8.469436277,-13.24604027,yes
+16dcd2,2014-09-01,2014-09-07,6,female,11,years,11,10-19,Military Hospital,West II,West II,West II,FALSE,Confirmed,37,114,yes,no,yes,no,no,38.8,28.47029855,SL040207,TRUE,8.477332913,-13.23975304,yes
+303410,2014-11-02,2014-11-04,2,male,7,years,7,0-9,Military Hospital,West III,West III,West III,FALSE,Confirmed,49,112,,,,,,36.5,39.0625,SL040208,TRUE,8.461321624,-13.26842467,yes
+10cae2,2014-10-18,2014-10-18,0,female,10,years,10,10-19,Port Hospital,West II,West II,West II,FALSE,Confirmed,52,127,yes,no,yes,no,yes,39,32.24006448,SL040207,TRUE,8.467879551,-13.24713246,yes
+b18cb7,2014-10-14,2014-10-15,1,male,50,years,50,50-59,Other,West III,West III,West III,FALSE,Confirmed,83,190,,,,,,37.3,22.99168975,SL040208,TRUE,8.461971594,-13.26588102,yes
+30247e,2014-11-25,2014-11-27,2,male,9,years,9,0-9,Military Hospital,West II,West II,West II,FALSE,Confirmed,42,134,yes,yes,yes,yes,yes,38.8,23.39051014,SL040207,TRUE,8.466893541,-13.23621789,yes
+b013ab,2014-07-30,2014-07-30,0,male,66,years,66,60-69,,West III,West III,West III,FALSE,Confirmed,86,237,yes,yes,yes,no,yes,39.6,15.31093664,SL040208,TRUE,8.477653183,-13.27002643,yes
+70baad,2014-06-20,2014-06-24,4,male,39,years,39,30-39,Port Hospital,West II,West II,West II,FALSE,Confirmed,75,146,yes,no,yes,no,yes,39.8,35.18483768,SL040207,TRUE,8.473283546,-13.23364313,yes
+4ade58,2014-08-07,2014-08-09,2,male,46,years,46,40-49,Other,West III,West III,West III,FALSE,Confirmed,78,215,no,no,no,no,yes,37,16.87398594,SL040208,TRUE,8.452794828,-13.25914054,yes
+5f8f6c,2014-08-31,2014-09-06,6,female,6,years,6,0-9,,West II,West II,West II,FALSE,Confirmed,27,87,yes,no,yes,no,yes,39.5,35.67181926,SL040207,TRUE,8.466272699,-13.23171288,yes
+da6eda,2014-11-19,2014-11-21,2,female,3,years,3,0-9,Port Hospital,West II,West II,West II,FALSE,Confirmed,30,67,yes,yes,no,no,no,39.1,66.83002896,SL040207,TRUE,8.48310933,-13.2577615,yes
+61c40f,2014-08-28,2014-08-30,2,female,24,years,24,20-29,,West III,West III,West III,FALSE,Confirmed,62,143,yes,no,yes,no,yes,39.7,30.31933102,SL040208,TRUE,8.465905583,-13.26256524,yes
+904052,2014-11-10,2014-11-11,1,female,19,years,19,10-19,Other,West II,West II,West II,FALSE,Confirmed,56,111,yes,no,yes,no,no,38.6,45.45085626,SL040207,TRUE,8.468083985,-13.24729386,yes
+e27816,2014-07-01,2014-07-10,9,male,30,years,30,30-39,Port Hospital,West II,West II,West II,FALSE,Confirmed,68,174,yes,no,yes,no,yes,38.7,22.46003435,SL040207,TRUE,8.466236217,-13.24715322,yes
+fe9196,2014-11-02,2014-11-06,4,male,5,years,5,0-9,Military Hospital,West I,West I,West I,FALSE,Confirmed,48,82,yes,no,yes,no,yes,38.5,71.38607971,SL040206,TRUE,8.481630463,-13.24551722,yes
+3c498e,2014-09-30,2014-10-02,2,male,21,years,21,20-29,,West II,West II,West II,FALSE,Confirmed,63,140,yes,no,yes,no,yes,39.5,32.14285714,SL040207,TRUE,8.464915574,-13.24861934,yes
+300cf2,2014-09-23,2014-09-23,0,female,28,years,28,20-29,Other,West II,West II,West II,FALSE,Confirmed,65,184,yes,no,yes,no,yes,38.5,19.1989603,SL040207,TRUE,8.470779243,-13.24542624,yes
+55d542,2014-08-10,2014-08-28,18,female,19,years,19,10-19,SMMH,West II,West II,West II,FALSE,Confirmed,54,124,yes,no,no,no,no,38.3,35.11966701,SL040207,TRUE,8.47700857,-13.24125276,yes
+f60a47,2014-11-14,2014-11-18,4,male,5,years,5,0-9,Port Hospital,West III,West III,West III,FALSE,Confirmed,50,119,yes,no,yes,no,no,39.4,35.30824094,SL040208,TRUE,8.46059152,-13.26486061,yes
+a7c306,2014-11-10,2014-11-10,0,female,20,years,20,20-29,Military Hospital,West II,West II,West II,FALSE,Confirmed,59,143,yes,no,yes,no,yes,38.9,28.85226661,SL040207,TRUE,8.461800783,-13.23314889,yes
+833a20,2014-09-30,2014-10-02,2,male,4,months,0.333333333333333,0-9,Port Hospital,West II,West II,West II,FALSE,Confirmed,40,65,yes,no,no,no,no,38.9,94.67455621,SL040207,TRUE,8.467034494,-13.24693185,yes
+08f742,2014-10-28,2014-10-29,1,male,1,years,1,0-9,Other,West III,West III,West III,FALSE,Confirmed,17,43,no,no,yes,no,no,36.3,91.94159005,SL040208,TRUE,8.476962736,-13.26604786,yes
+7bdda7,2014-09-27,2014-09-27,0,female,13,years,13,10-19,Port Hospital,West II,West II,West II,FALSE,Confirmed,60,136,,,,,,37.5,32.43944637,SL040207,TRUE,8.465752901,-13.248355,yes
+c0f295,2014-10-26,2014-10-27,1,male,16,years,16,10-19,,West III,West III,West III,FALSE,Confirmed,66,121,yes,yes,yes,yes,yes,38.6,45.07888805,SL040208,TRUE,8.460874822,-13.26628275,yes
+652088,2014-11-13,2014-11-19,6,female,1,years,1,0-9,,West I,West I,West I,FALSE,Confirmed,12,48,yes,no,no,no,no,39.2,52.08333333,SL040206,TRUE,8.484135657,-13.24679984,yes
+98992e,2014-08-29,2014-09-01,3,male,7,years,7,0-9,Military Hospital,West II,West II,West II,FALSE,Confirmed,51,115,yes,no,yes,no,no,39,38.56332703,SL040207,TRUE,8.466899834,-13.24775571,yes
+3ebb3e,2014-11-11,2014-11-15,4,male,19,years,19,10-19,Other,West III,West III,West III,FALSE,Confirmed,66,137,yes,no,yes,no,yes,39.6,35.16436678,SL040208,TRUE,8.463173788,-13.26170901,yes
+7ba3ff,2014-10-11,2014-10-13,2,female,11,years,11,10-19,Military Hospital,West III,West III,West III,FALSE,Confirmed,56,92,,,,,,36.9,66.16257089,SL040208,TRUE,8.475310022,-13.26476408,yes
+644c23,2014-11-03,2014-11-05,2,male,21,years,21,20-29,Central Hospital,West II,West II,West II,FALSE,Confirmed,67,161,yes,no,yes,no,no,38.9,25.84776822,SL040207,TRUE,8.470259549,-13.23413793,yes
+10cb7a,2014-09-17,2014-09-21,4,female,2,years,2,0-9,,West III,West III,West III,FALSE,Confirmed,30,39,yes,no,yes,no,yes,39.2,197.2386588,SL040208,TRUE,8.465233519,-13.26062602,yes
+cfe2c7,2014-11-01,2014-11-03,2,male,3,years,3,0-9,Military Hospital,West III,West III,West III,FALSE,Confirmed,48,68,yes,no,no,no,yes,38.6,103.8062284,SL040208,TRUE,8.45288891,-13.25964265,yes
+c55720,2014-09-22,2014-09-25,3,male,16,years,16,10-19,Other,West II,West II,West II,FALSE,Confirmed,58,137,no,no,yes,no,yes,36.5,30.90201929,SL040207,TRUE,8.462876463,-13.22494794,yes
+a55830,2014-10-15,2014-10-16,1,female,12,years,12,10-19,Other,West II,West II,West II,FALSE,Confirmed,54,140,yes,no,no,no,yes,38.7,27.55102041,SL040207,TRUE,8.472580276,-13.23243098,yes
+82b823,2014-08-05,2014-08-10,5,male,8,years,8,0-9,Port Hospital,West II,West II,West II,FALSE,Confirmed,55,114,yes,no,yes,no,no,38.8,42.32071407,SL040207,TRUE,8.461478201,-13.22348359,yes
+ecd845,2014-08-31,2014-09-02,2,female,39,years,39,30-39,Other,West II,West II,West II,FALSE,Confirmed,70,215,yes,yes,yes,no,yes,39.6,15.14332071,SL040207,TRUE,8.465860225,-13.2453436,yes
+619e1e,2014-10-04,2014-10-11,7,female,7,years,7,0-9,Other,West II,West II,West II,FALSE,Confirmed,35,96,yes,no,yes,no,yes,39.4,37.97743056,SL040207,TRUE,8.471122675,-13.23211447,yes
+e8bcf6,2014-08-28,2014-09-01,4,female,22,years,22,20-29,Military Hospital,West III,West III,West III,FALSE,Confirmed,63,165,yes,no,no,no,no,38.9,23.14049587,SL040208,TRUE,8.457545476,-13.25903098,yes
+0f5c6e,2014-07-30,2014-08-04,5,female,8,years,8,0-9,Port Hospital,West III,West III,West III,FALSE,Confirmed,42,106,no,no,yes,no,yes,37.1,37.37985048,SL040208,TRUE,8.485839638,-13.25939363,yes
+f2438e,2014-09-20,2014-09-23,3,male,19,years,19,10-19,Military Hospital,West II,West II,West II,FALSE,Confirmed,61,153,yes,no,yes,no,no,38.9,26.05835362,SL040207,TRUE,8.463861524,-13.22399718,yes
+8728f5,,2014-11-13,,male,43,years,43,40-49,Other,West II,West II,West II,FALSE,Confirmed,79,177,yes,no,yes,no,yes,38.8,25.21625331,SL040207,TRUE,8.469155711,-13.24574117,yes
+597f17,2014-10-06,2014-10-06,0,female,1,years,1,0-9,,West III,West III,West III,FALSE,Confirmed,14,51,yes,no,yes,no,no,38.7,53.82545175,SL040208,TRUE,8.465316251,-13.26327442,yes
+42022a,,2014-08-08,,male,25,years,25,20-29,Other,West II,West II,West II,FALSE,Confirmed,72,201,no,no,yes,no,no,36.4,17.82134106,SL040207,TRUE,8.47670919,-13.23943777,yes
+74bea1,2014-09-03,2014-09-04,1,male,7,years,7,0-9,Other,West III,West III,West III,FALSE,Confirmed,43,116,yes,no,yes,no,no,39.2,31.95600476,SL040208,TRUE,8.459520259,-13.26850162,yes
+ef1f68,2014-08-15,2014-08-18,3,male,21,years,21,20-29,Port Hospital,West I,West I,West I,FALSE,Confirmed,66,165,yes,yes,yes,no,yes,39.4,24.24242424,SL040206,TRUE,8.481847589,-13.24911082,yes
+0d8a0a,2014-11-24,2014-11-30,6,male,27,years,27,20-29,Central Hospital,West II,West II,West II,FALSE,Confirmed,60,152,yes,no,no,no,yes,40,25.96952909,SL040207,TRUE,8.468372942,-13.23378628,yes
+0d8a0a,,2014-11-30,,male,27,years,27,20-29,Central Hospital,West II,West II,West II,FALSE,Confirmed,60,152,yes,no,no,no,yes,40,25.96952909,SL040207,TRUE,8.468372942,-13.23378628,yes
+818a12,2014-08-13,2014-08-22,9,male,37,years,37,30-39,Military Hospital,West III,West III,West III,FALSE,Confirmed,67,198,yes,no,yes,no,yes,39,17.09009285,SL040208,TRUE,8.473614401,-13.26486302,yes
+19703e,2014-11-13,2014-12-08,25,female,15,years,15,10-19,,West III,West III,West III,FALSE,Confirmed,48,130,yes,no,yes,yes,yes,38.7,28.40236686,SL040208,TRUE,8.48541906,-13.2619778,yes
+b8812a,2014-05-18,,,female,18,years,18,10-19,Port Hospital,West II,West II,West II,FALSE,Confirmed,41,135,no,no,no,no,no,36.8,22.49657064,SL040207,TRUE,8.475476161,-13.23637112,yes
+376051,2014-09-20,2014-10-05,15,male,16,years,16,10-19,Port Hospital,West III,West III,West III,FALSE,Confirmed,57,192,yes,no,no,no,yes,38.2,15.46223958,SL040208,TRUE,8.458579816,-13.26931131,yes
+b6a6c7,2014-07-29,2014-08-07,9,,,years,,,Port Hospital,West III,West III,West III,FALSE,Confirmed,47,70,yes,no,yes,no,yes,39.3,95.91836735,SL040208,TRUE,8.47485111,-13.26390642,yes
+93bb41,,2014-09-20,,female,8,years,8,0-9,SMMH,West III,West III,West III,FALSE,Confirmed,33,75,no,yes,yes,no,yes,36.5,58.66666667,SL040208,TRUE,8.484906583,-13.26203691,yes
+93bb41,2014-09-07,2014-09-20,13,female,8,years,8,0-9,SMMH,West III,West III,West III,FALSE,Confirmed,33,75,no,yes,yes,no,yes,36.5,58.66666667,SL040208,TRUE,8.484906583,-13.26203691,yes
+06fd73,2014-07-08,,,male,35,years,35,30-39,Military Hospital,West III,West III,West III,FALSE,Confirmed,77,166,yes,no,yes,no,no,38.7,27.94309769,SL040208,TRUE,8.463263465,-13.26379997,yes
+18ae3d,2014-09-06,2014-09-14,8,female,14,years,14,10-19,Port Hospital,West II,West II,West II,FALSE,Confirmed,60,145,yes,no,yes,no,yes,38.9,28.53745541,SL040207,TRUE,8.471267031,-13.23498547,yes
+fe2e5a,2014-10-03,2014-10-16,13,female,16,years,16,10-19,,West II,West II,West II,FALSE,Confirmed,54,141,yes,no,yes,no,no,39.1,27.16161159,SL040207,TRUE,8.469134282,-13.24691945,yes
+742243,2014-10-01,2014-11-01,31,male,35,years,35,30-39,,West III,West III,West III,FALSE,Confirmed,66,192,yes,yes,yes,no,yes,38.4,17.90364583,SL040208,TRUE,8.458561429,-13.2524071,yes
+47dfcd,2014-10-01,2014-10-12,11,female,1,years,1,0-9,Port Hospital,West II,West II,West II,FALSE,Confirmed,23,34,,,,,,36.9,198.9619377,SL040207,TRUE,8.471507212,-13.24649682,yes
+aac49d,2014-10-26,2014-11-18,23,male,1,years,1,0-9,Other,West III,West III,West III,FALSE,Confirmed,16,50,no,no,yes,no,yes,36.9,64,SL040208,TRUE,8.48114874,-13.26374485,yes
+10dd7d,2014-10-11,,,male,11,years,11,10-19,,West III,West III,West III,FALSE,Confirmed,62,121,yes,no,yes,no,no,39.6,42.34683423,SL040208,TRUE,8.475905886,-13.2650928,yes
+5387a2,2014-05-31,2014-06-17,17,male,23,years,23,20-29,Port Hospital,West III,West III,West III,FALSE,Confirmed,66,148,yes,no,yes,no,yes,39.3,30.13148283,SL040208,TRUE,8.45524161,-13.26284351,yes
+bc475c,2014-11-08,2014-11-01,-7,female,4,years,4,0-9,Central Hospital,West II,West II,West II,FALSE,Confirmed,35,63,yes,no,yes,no,yes,39.4,88.18342152,SL040207,TRUE,8.469632033,-13.23576306,yes
